@@ -124,9 +124,7 @@ sudo rstudio-server start --server-daemonize=0
 sudo nginx -c ~/workspace/nginx.conf
 </pre>
 
-E ingresar a esta dirección: https://r-studio-server-cazdemun.c9users.io/rstudio/
-
-https://\<workspace>-\<user>.c9users.io/rstudio/
+E ingresar a esta dirección: https://\<workspace>-\<user>.c9users.io/rstudio/
 
 ## Entonces, ¿qué pasó al final?
 
@@ -155,5 +153,4 @@ sudo nano /etc/nginx/nginx.conf
 sudo nginx
 sudo su
 passwd ubuntu
-adminfo2017
 </pre>

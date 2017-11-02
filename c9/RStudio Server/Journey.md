@@ -100,9 +100,8 @@ Ahora, si todo sale bien, tendrías que iniciar la aplicación.
 <pre>
 $ sudo rstudio-server start
 </pre>
-E ingresar a esta dirección: https://r-studio-server-cazdemun.c9users.io/
 
-https://\<workspace>-\<user>.c9users.io/
+E ingresar a esta dirección: https://\<workspace>-\<user>.c9users.io/
 
 ## Crisis de identidad
 
@@ -133,5 +132,4 @@ sudo nano /etc/nginx/nginx.conf
 sudo nginx
 sudo su
 passwd ubuntu
-adminfo2017
 </pre>

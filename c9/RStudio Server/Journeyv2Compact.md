@@ -85,5 +85,4 @@ sudo rstudio-server start --server-daemonize=0
 sudo nginx -c ~/workspace/nginx.conf
 </pre>
 
-https://r-studio-server-cazdemun.c9users.io/rstudio/
 https://\<workspace>-\<user>.c9users.io/rstudio/
