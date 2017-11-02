@@ -49,7 +49,7 @@ Y añadiremos esto:
 <pre>
 server-app-armor-enabled=0
 </pre>
-Hay que buscar un pequeño tutorial en nano si este resulta confuso. Pero si te va bien solo apretar botones: ctr-X -> Y -> Enter
+Hay que buscar un pequeño tutorial en nano si este resulta confuso. Pero si te va bien solo apretar botones: Ctrl-X -> Y -> Enter
 
 Sigo sin tener idea si este paso es 100% necesario.
 
