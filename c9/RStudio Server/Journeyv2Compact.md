@@ -70,10 +70,6 @@ http {
     }
 }
 </pre>
-
-Crear el archivo nginx.conf en la carpeta del workspace.
-Primero hay que testear el script, y todo debería salir correcto.
-
 <pre>
 sudo nginx -c ~/workspace/nginx.conf -t 
 </pre>
