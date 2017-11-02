@@ -11,6 +11,8 @@ $ R --version
 
 ## Instalando R-Studio Server
 
+https://www.rstudio.com/products/rstudio/download-server/ (Última versión)
+
 <pre>
 $ sudo apt-get install gdebi-core
 $ wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb
@@ -21,7 +23,9 @@ $ sudo gdebi rstudio-server-1.1.383-amd64.deb
 
 <pre>
 $ sudo nano /etc/rstudio/rserver.conf
-        server-app-armor-enabled=0
+</pre>
+<pre>
+server-app-armor-enabled=0
 </pre>
 
 ## Cambiando la contraseña
@@ -35,8 +39,8 @@ $ exit
 ## NGINX
 
 <pre>
-touch ~/workspace/nginx.conf
-nano ~/workspace/nginx.conf
+$ touch ~/workspace/nginx.conf
+$ nano ~/workspace/nginx.conf
 </pre>
 <pre>
 user www-data;
@@ -71,14 +75,16 @@ http {
 }
 </pre>
 <pre>
-sudo nginx -c ~/workspace/nginx.conf -t 
+$ sudo nginx -c ~/workspace/nginx.conf -t 
 </pre>
 
 ## Iniciando RStudio Server
 
 <pre>
-sudo rstudio-server start --server-daemonize=0
-sudo nginx -c ~/workspace/nginx.conf
+$ sudo rstudio-server start --server-daemonize=0
+$ sudo nginx -c ~/workspace/nginx.conf
 </pre>
 
 https://\<workspace>-\<user>.c9users.io/rstudio/
+
+Si sale error o se redirecciona la página, intentar de nuevo.
