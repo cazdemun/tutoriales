@@ -109,7 +109,7 @@ http {
 </pre>
 
 Crear el archivo nginx.conf en la carpeta del workspace.
-Primero hay que testear el script, y todo debería salir correcto.
+Primero hay que testear el script, y todo debería salir correcto [11].
 
 <pre>
 sudo nginx -c ~/workspace/nginx.conf -t 
@@ -144,6 +144,7 @@ Sin más, dejo este misterio para otra ocasión.
 [8] https://askubuntu.com/questions/218708/installing-latest-version-of-r-base <br>
 [9] https://community.c9.io/t/can-i-install-rstudio-on-c9/12310/4 <br>
 [10] https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart <br>
+[11] http://nginx.org/en/docs/switches.html <br>
 
 Comandos mágicos que sirvieron en la última parte de esta aventura:
 
